@@ -5,3 +5,6 @@ This project is based off of one of their tutorials to build a simple top-down s
 I tried to enhance the game a bit by adding more asteroids over time based on score and have them increase speed.  
 I have to say, it has been a fun journey.  
 
+Created using Unity 4.3[.3f1]
+
+
