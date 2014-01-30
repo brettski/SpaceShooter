@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
 	
 	void Update()
 	{
-		if(Input.GetButton ("Fire1") && Time.time > nextFire)
+		if(Input.GetKey("right shift") && Time.time > nextFire)
 		{
 			nextFire = Time.time + fireRate;
 			gameController.AddShot();

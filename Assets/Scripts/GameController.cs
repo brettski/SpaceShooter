@@ -81,7 +81,7 @@ public class GameController : MonoBehaviour
 		if(score > 1 && score % 120 == 0)
 		{
 			hazardCount += Random.Range(1, 3);
-			speedOffset += (Random.Range(-5f, 20f) * 10);
+			speedOffset += 50f; //(Random.Range(-5f, 20f) * 10);
 		}
 	}
 
